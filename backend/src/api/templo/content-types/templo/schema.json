@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "templos",
+  "info": {
+    "singularName": "templo",
+    "pluralName": "templos",
+    "displayName": "Templos",
+    "description": "Church locations and branches"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "pastor": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

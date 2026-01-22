@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reuniones",
+  "info": {
+    "singularName": "reunion",
+    "pluralName": "reuniones",
+    "displayName": "Reuniones",
+    "description": "Church meetings and services"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "speaker": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

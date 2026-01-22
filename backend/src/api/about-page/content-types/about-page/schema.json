@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "Nosotros",
+    "description": "Content for About Us, History, and Faith"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "history": {
+      "type": "blocks"
+    },
+    "faithStatement": {
+      "type": "blocks"
+    },
+    "congregationDescription": {
+      "type": "blocks"
+    }
+  }
+}

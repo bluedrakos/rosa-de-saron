@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ministries",
+  "info": {
+    "singularName": "ministry",
+    "pluralName": "ministries",
+    "displayName": "Ministerios",
+    "description": "Church ministries"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}
